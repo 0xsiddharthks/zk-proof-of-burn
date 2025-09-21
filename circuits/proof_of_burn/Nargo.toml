@@ -1,0 +1,8 @@
+[package]
+name = "proof_of_burn"
+type = "bin"
+authors = ["0xsiddharthks"]
+version = "0.1.0"
+
+[dependencies]
+std = { git = "https://github.com/noir-lang/noir_stdlib", tag = "v0.20.0" }

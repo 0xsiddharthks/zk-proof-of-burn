@@ -1,0 +1,20 @@
+{
+    "name": "zk-proof-of-burn-sdk",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc -p tsconfig.json"
+    },
+    "dependencies": {
+        "@noir-lang/noir_js": "^0.11.0",
+        "@noir-lang/barretenberg": "^0.5.0",
+        "ethers": "^6.10.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.19.0",
+        "typescript": "^5.3.3"
+    }
+}
